@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYBSCIT SEM2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+           
+        }
+
+        #heading {
+            text-align: center;
+            text-decoration-line: underline;
+            color: white;
+            background-color: #2c302d;
+
+
+
+        }
+
+        #buttonspace {
+            padding: 10px 25px;
+            border-radius: 50px;
+            background: #1f75c4;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            margin: 50px auto;
+            border-bottom: 3px solid #808488;
+
+        }
+
+        #buttonspace:hover {
+            background: #1fc435;
+            transition: 0.3s;
+            border-bottom: 3px solid #1f75c4;
+        }
+
+        .card {
+            width: 270px;
+            height: 300px;
+            padding: auto;
+            top: 20px;
+            text-align: center;
+            border-radius: 10px;
+            color: rgb(236, 229, 229);
+            margin: 45px;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 25px 25px 50px #1b1c1b, -25px -25px 50px #2d302f;
+            background: #242625;
+            position: relative;
+            
+
+        }
+
+        .card:hover {
+
+
+            transition: 0.5s;
+            position: relative;
+            top: 2px;
+
+        }
+
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: center;
+            background-color: #2c302d;
+            padding-top: 10px;
+            height: 900px;
+
+
+        }
+
+        #topic h2 {
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+
+        #des {
+            margin-top: 60px;
+        }
+        #search{
+            position: absolute;
+            border: none;
+            margin: 10px;
+            background-color: #333634;
+            border-bottom: 2px solid rgb(11, 231, 202);
+            border-radius: 20px;
+            padding: 5px;
+            color: white;
+            text-align: center;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <h1 onclick="s()"  id="heading">FYBSC IT SEM 2 </h1>
+    <div id="main">
+ 
+        <select name="search" id="search">
+            <option onclick="WEB()" value="web">WEB DEVELOPMENT</option>
+            <option onclick="GRE()" value="">GREEN COMPUTING</option>
+            <option onclick="MIC()" value="">MICROPROCESSOR AND AR</option>
+            <option onclick="NUM()" value="">NUMERICAL AND STAT</option>
+            <option onclick="OBJ()" value="">OBJECT OPS</option>
+            <option onclick="ALL()" value="">ALL</option>
+
+
+        </select>
+
+        <div class="card" id="web">
+            <div id="topic">
+                <h2>WEB PROGRAMMING</h2>
+            </div>
+            <div id="des">
+                <p>WP subject <br>
+                    It is taught by LP</p>
+            </div>
+            <div id="click">
+               <a href="wp.html"> <button  id="buttonspace">start</button></a>
+            </div>
+        </div>
+        <div class="card" id="maths">
+            <div id="topic">
+                <h2> MATHS </h2>
+            </div>
+            <div id="des">
+                <p>Maths subject <br>
+                    It is taught by AM</p>
+            </div>
+            <div id="click">
+               <a href="maths.html"> <button  id="buttonspace">start</button></a>
+                
+            </div>
+        </div>
+        <div class="card" id="greenc">
+            <div id="topic">
+                <h2>
+                    GREEN COMPUTING
+                </h2>
+            </div>
+            <div id="des">
+                <p>GC subject <br>
+                    It is taught by AP</p>
+            </div>
+            <div id="click">
+                <a href="gc.html"> <button  id="buttonspace">start</button></a>
+
+            </div>
+        </div>
+        <div class="card" id="oops">
+            <div id="topic">
+
+                <h2>
+                    OBJECT ORIENTED PROGRAMMING
+
+                </h2>
+            </div>
+            <div id="des">
+                <p>OOPS subject <br>
+                    It is taught by RR</p>
+            </div>
+            <div id="click">
+                <a href="oops.html"> <button  id="buttonspace">start</button></a>
+
+            </div>
+        </div>
+        <div class="card" id="ma">
+            <div id="topic">
+                <h2> MICROPROCESSOR AND ARCITECTURE</h2>
+            </div>
+            <div id="des">
+                <p>MA subject <br>
+                    It is taught by SK</p>
+            </div>
+            <div id="click">
+                <a href="ma.html"> <button  id="buttonspace">start</button></a>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- <footer>
+        askldklasjdklj
+    </footer> -->
+    <script>
+  
+
+function WEB(params) {
+    document.getElementById("web").style.display="block";
+   document.getElementById("maths").style.display="none";
+   document.getElementById("ma").style.display="none";
+   document.getElementById("oops").style.display="none";
+   document.getElementById("greenc").style.display="none";
+
+}function GRE(params) {
+    document.getElementById("web").style.display="none";
+   document.getElementById("maths").style.display="none";
+   document.getElementById("ma").style.display="none";
+   document.getElementById("oops").style.display="none";
+   document.getElementById("greenc").style.display="block";
+
+}function NUM(params) {
+    document.getElementById("web").style.display="none";
+   document.getElementById("maths").style.display="block";
+   document.getElementById("ma").style.display="none";
+   document.getElementById("oops").style.display="none";
+   document.getElementById("greenc").style.display="none";
+
+}function OBJ(params) {
+    document.getElementById("web").style.display="none";
+   document.getElementById("maths").style.display="none";
+   document.getElementById("ma").style.display="none";
+   document.getElementById("oops").style.display="block";
+   document.getElementById("greenc").style.display="none";
+
+}function MIC(params) {
+    document.getElementById("web").style.display="none";
+   document.getElementById("maths").style.display="none";
+   document.getElementById("ma").style.display="block";
+   document.getElementById("oops").style.display="none";
+   document.getElementById("greenc").style.display="none";
+
+}function ALL(params) {
+   document.getElementById("web").style.display="block";
+   document.getElementById("maths").style.display="block";
+   document.getElementById("ma").style.display="block";
+   document.getElementById("oops").style.display="block";
+   document.getElementById("greenc").style.display="block";
+
+}
+            
+        
+    </script>
+</body>
+
+</html>

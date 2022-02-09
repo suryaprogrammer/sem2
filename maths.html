@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Screenshot_2022-02-02_14-59-18.png" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  
+
+<nav>
+    <h2 id="heading">MATHS</h2>
+</nav>
+<div id="bent"></div>
+<div id="root">
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dac31dyRTo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+</div>
+
+<!-- <div id="cardout">
+<div id="card">
+    <div id="left"><h4>Web Programming</h4>
+    <button id="watch">Watch</button>
+    <button id="download">Download</button>
+    
+    </div>
+    <div id="right">
+        <div id="leftpart"><span>day</span></div>
+        <div id="leftpart"><span>24/12/22</span></div>
+        <div id="leftpart"><span>Type</span></div>
+
+
+    </div>
+</div> 
+</div>  -->
+
+
+
+
+
+
+
+
+</body>
+<script >fetch("maths.json") .then(res=>res.json())
+    .then(data =>{
+      
+
+
+for (var i=5; i >= 0; i--) {
+
+
+
+let a = document.createElement("div")
+a.id="di"
+
+a.innerHTML +=`
+</div>
+<div id="cardout">
+<div id="card">
+<div id="left"><h4>${data[i].lec}</h4>
+<button class="button-71"  " id="watch">
+
+
+<a href="${data[i].watch}">watch</a>
+
+
+
+</button>
+<button class="button-71"  id="download">Download</button>
+
+</div>
+<div id="right">
+<div id="leftpart"><span>${data[i].day}</span></div>
+<div id="leftpart"><span>${data[i].date}</span></div>
+<div id="leftpart"><span>${data[i].type}</span></div>
+
+
+</div>
+</div>
+</div>
+
+
+`;
+let root = document.getElementById("root");
+root.appendChild(a);
+
+
+
+}
+
+// console.log(data);
+
+// console.log(data[0].id);
+
+
+      })
+
+</script>
+</html>

@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "lec": "surya",
+        "type":"theory",
+        "day":"thus",
+        "date":"12/12/21",
+        "watch": "https://miro.medium.com/max/1400/1*axu7VHyHt7DS2RJxSbdrBg.png",
+        "download":""
+    }, {
+        "id": 2,
+        "lec": "surya",
+        "type":"theory",
+        "day":"fri",
+        "date":"12/12/21",
+        "watch": "https://miro.medium.com/max/1400/1*axu7VHyHt7DS2RJxSbdrBg.png",
+        "download":""
+    }, {
+        "id": 3,
+        "lec": "surya",
+        "type":"theory",
+        "day":"sat",
+        "date":"12/12/21",
+        "watch": "https://miro.medium.com/max/1400/1*axu7VHyHt7DS2RJxSbdrBg.png",
+        "download":""
+    }, {
+        "id": 4,
+        "lec": "OOPS",
+        "type":"theory",
+        "day":"sat",
+        "date":"08/02/22",
+        "watch": "https://miro.medium.com/max/1400/1*axu7VHyHt7DS2RJxSbdrBg.png",
+        "download":""
+    }
+    
+]

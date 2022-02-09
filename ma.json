@@ -1,0 +1,33 @@
+[
+    {
+       
+        "lec": "MICROPROCESSOR",
+        "type":"Theory",
+        "day":"Wed",
+        "date":"09/02/22",
+        "watch": "https://www.youtube.com/embed/_B6qSj4sGQs",
+        "download":"",
+        "des":"Register"
+
+    },{
+       
+        "lec": "MICROPROCESSOR",
+        "type":"Theory",
+        "day":"Wed",
+        "date":"09/02/22",
+        "watch": "https://www.youtube.com/embed/yu3VX5Nol08",
+        "download":"",
+        "des":"Progrm-status"
+
+    },
+    {
+       
+        "lec": "MICROPROCESSOR",
+        "type":"Theory",
+        "day":"Sat",
+        "date":"05/02/22",
+        "watch": "https://www.youtube.com/embed/S_BclqNHpOU",
+        "download":"",
+        "des":"Status-Flag"
+    }
+]
