@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,31 +10,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
- 
+
 
 </style>
 
 <body>
-  
-
-<nav>
-    <h2 id="heading">MICROPROCESSOR & A</h2>
-
-</nav>
-
-<div id="sdiv">
-    <input id="searchs" placeholder="dont search work under construction" type="text">
 
 
-</div>
+    <nav>
+        <h2 id="heading">MICROPROCESSOR & A</h2>
+
+    </nav>
+
+    <div id="sdiv">
+        <input id="searchs" placeholder="dont search work under construction" type="text">
+    </div>
 
 
-<div id="root">
-    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dac31dyRTo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <div id="root">
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dac31dyRTo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-</div>
+    </div>
 
-<!-- <div id="cardout">
+    <!-- <div id="cardout">
 <div id="card">
     <div id="left"><h4>Web Programming</h4>
     <button id="watch">Watch</button>
@@ -58,20 +57,20 @@
 
 
 </body>
-<script >fetch("ma.json") .then(res=>res.json())
-    .then(data =>{
-      
-
-
-for (var i=0; i<=100; i++) {
+<script>fetch("ma.json").then(res => res.json())
+        .then(data => {
 
 
 
-let a = document.createElement("div")
-a.id="di"
+            for (var i = 0; i<=100; i++) {
 
-a.innerHTML +=`
-</div>
+
+
+                let a = document.createElement("div")
+                a.id = "di"
+
+                a.innerHTML += `
+            </div>
 <div id="cardout">
 <div id="card">
 <div id="left"><h4>${data[i].lec}</h4>
@@ -98,20 +97,23 @@ a.innerHTML +=`
 </div>
 
 
+
+
 `;
-let root = document.getElementById("root");
-root.appendChild(a);
+                let root = document.getElementById("root");
+                root.appendChild(a);
 
 
 
-}
+            }
 
-// console.log(data);
+            // console.log(data);
 
-// console.log(data[0].id);
+            // console.log(data[0].id);
 
 
-      })
+        })
 
 </script>
+
 </html>
