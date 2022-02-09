@@ -1,7 +1,17 @@
 *{
     margin: 0;padding: 0;
 }
-
+#searchs{
+    position: absolute;
+    border: none;
+    margin: 10px;
+    background-color: #333634;
+    border-bottom: 2px solid rgb(11, 231, 202);
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
 #heading{
     text-align: center;
     justify-self: center;
