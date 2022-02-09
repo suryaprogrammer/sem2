@@ -58,7 +58,7 @@ s
       
 
 
-for (var i=5; i >= 0; i--) {
+for (var i=0; i <= 100; i++) {
 
 
 
@@ -70,14 +70,15 @@ a.innerHTML +=`
 <div id="cardout">
 <div id="card">
 <div id="left"><h4>${data[i].lec}</h4>
-<button class="button-71"  " id="watch">
-
-
-<a href="${data[i].watch}">watch</a>
+    <p id="des" >${data[i].des}</p>
 
 
 
-</button>
+<a target="_blank" href="${data[i].watch}"><button class="button-71"  " id="watch">watch</button></a>
+
+
+
+
 <button class="button-71"  id="download">Download</button>
 
 </div>
@@ -90,6 +91,7 @@ a.innerHTML +=`
 </div>
 </div>
 </div>
+
 
 
 `;
