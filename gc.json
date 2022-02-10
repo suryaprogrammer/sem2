@@ -1,53 +1,14 @@
 [
     {
-        "id": 1,
-        "lec": "wp",
-        "type":"theory",
-        "day":"mon",
-        "date":"12/12/21",
-        "watch": "https://www.youtube.com/embed/dac31dyRTo4",
-        "download":""
-    },
-    {
-        "id": 2,
-        "lec": "wp",
-        "type":"theory",
-        "day":"tue",
-        "date":"12/12/21",
-        "watch": "https://miro.medium.com/max/1400/1*axu7VHyHt7DS2RJxSbdrBg.png",
-        "download":""
-    }, {
-        "id": 3,
-        "lec": "wp",
-        "type":"theory",
-        "day":"wed",
-        "date":"12/12/21",
-        "watch": "https://miro.medium.com/max/1400/1*axu7VHyHt7DS2RJxSbdrBg.png",
-        "download":""
-    }, {
-        "id": 4,
-        "lec": "surya",
-        "type":"theory",
-        "day":"thus",
-        "date":"12/12/21",
-        "watch": "https://miro.medium.com/max/1400/1*axu7VHyHt7DS2RJxSbdrBg.png",
-        "download":""
-    }, {
-        "id": 5,
-        "lec": "surya",
-        "type":"theory",
-        "day":"fri",
-        "date":"12/12/21",
-        "watch": "https://miro.medium.com/max/1400/1*axu7VHyHt7DS2RJxSbdrBg.png",
-        "download":""
-    }, {
-        "id": 6,
-        "lec": "surya",
-        "type":"theory",
-        "day":"sat",
-        "date":"12/12/21",
-        "watch": "https://miro.medium.com/max/1400/1*axu7VHyHt7DS2RJxSbdrBg.png",
-        "download":""
+       
+        "lec": "GREEN C",
+        "type":"Theory",
+        "day":"Thus",
+        "date":"10/02/22",
+        "watch": "https://www.youtube.com/embed/_B6qSj4sGQs",
+        "download":"",
+        "des":"E waste "
+
     }
     
 ]
