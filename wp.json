@@ -1,5 +1,25 @@
 [
-    
+    {
+       
+        "lec": "WEB PROG",
+        "type":"Theory",
+        "day":"Thus",
+        "date":"10/02/22",
+        "watch": "https://youtube.com/embed/BZF_LYin7KA",
+        "download":"",
+        "des":"Form"
+
+    },{
+       
+        "lec": "WEB PROG",
+        "type":"Theory",
+        "day":"Thus",
+        "date":"10/02/22",
+        "watch": "https://youtube.com/embed/aH7BQDBrrWI",
+        "download":"",
+        "des":"Table"
+
+    },
     {
         
         "lec": "WEB PROG",
