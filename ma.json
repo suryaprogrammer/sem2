@@ -1,4 +1,32 @@
-[ {
+[
+    {
+        "lec": "MICROPROCESSOR",
+        "type":"Theory",
+        "day":"Sat",
+        "date":"12/02/22",
+        "watch": "https://www.youtube.com/embed/3ZV_-kLixhM",
+        "download":"",
+        "des":"data-trans"
+    },
+    {
+        "lec": "MICROPROCESSOR",
+        "type":"Theory",
+        "day":"Fri",
+        "date":"11/02/22",
+        "watch": "https://www.youtube.com/embed/J1B42KKl5Q8",
+        "download":"",
+        "des":"data-trans"
+    }, 
+    {
+        "lec": "MICROPROCESSOR",
+        "type":"Theory",
+        "day":"FRI",
+        "date":"11/02/22",
+        "watch": "https://www.youtube.com/embed/sJy-2ZPg6AE",
+        "download":"",
+        "des":"Data-trans"
+    },
+    {
        
     "lec": "MICROPROCESSOR",
     "type":"Theory",

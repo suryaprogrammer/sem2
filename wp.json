@@ -1,42 +1,56 @@
 [
     {
-       
         "lec": "WEB PROG",
-        "type":"Theory",
-        "day":"Thus",
-        "date":"10/02/22",
-        "watch": "https://youtube.com/embed/BZF_LYin7KA",
-        "download":"",
-        "des":"Form"
-
-    },{
-       
-        "lec": "WEB PROG",
-        "type":"Theory",
-        "day":"Thus",
-        "date":"10/02/22",
-        "watch": "https://youtube.com/embed/aH7BQDBrrWI",
-        "download":"",
-        "des":"Table"
-
+        "type": "Theory",
+        "day": "Sat",
+        "date": "12/02/22",
+        "watch": "https://youtube.com/embed/v9-KqhA-SVM",
+        "download": "",
+        "des": "Input-type"
     },
     {
-        
         "lec": "WEB PROG",
-        "type":"Theory",
-        "day":"Sat",
-        "date":"05/02/22",
+        "type": "Theory",
+        "day": "Fri",
+        "date": "11/02/22",
+        "watch": "https://youtube.com/embed/4H45HC1GWO0",
+        "download": "",
+        "des": "Input-type"
+    },
+    {
+        "lec": "WEB PROG",
+        "type": "Theory",
+        "day": "Thus",
+        "date": "10/02/22",
+        "watch": "https://youtube.com/embed/BZF_LYin7KA",
+        "download": "",
+        "des": "Form"
+    },
+    {
+        "lec": "WEB PROG",
+        "type": "Theory",
+        "day": "Thus",
+        "date": "10/02/22",
+        "watch": "https://youtube.com/embed/aH7BQDBrrWI",
+        "download": "",
+        "des": "Table"
+    },
+    {
+        "lec": "WEB PROG",
+        "type": "Theory",
+        "day": "Sat",
+        "date": "05/02/22",
         "watch": "https://www.youtube.com/embed/HeQQZ6FBLl8",
-        "download":"",
-        "des":"HTML"
-    }, {
-    
+        "download": "",
+        "des": "HTML"
+    },
+    {
         "lec": "WEB PROG",
-        "type":"Theory",
-        "day":"Sat",
-        "date":"05/02/22",
+        "type": "Theory",
+        "day": "Sat",
+        "date": "05/02/22",
         "watch": "https://www.youtube.com/embed/HwPjhGJ4rqY",
-        "download":"",
-        "des":"HTML"
+        "download": "",
+        "des": "HTML"
     }
 ]
