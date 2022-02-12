@@ -105,7 +105,8 @@
     </style>
 </head>
 
-<body>
+<body id="body" onload="pass()">
+    
     <h1 onclick="s()"  id="heading">FYBSC IT SEM 2 </h1>
     <div id="main">
  
@@ -251,7 +252,19 @@ function WEB(params) {
 
 }
             
-        
+function pass(params) {
+  let pass = prompt("Enter password");
+  if (pass == "FUCK YOU.") {
+      alert("hi ");
+  }
+  else{
+      alert("Entered password is wrong")
+      document.getElementById("body").style.display="none";
+  }
+    }
+
+
+
     </script>
 </body>
 
