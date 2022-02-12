@@ -106,7 +106,7 @@
 </head>
 
 <body id="body" onload="pass()">
-    
+   
     <h1 onclick="s()"  id="heading">FYBSC IT SEM 2 </h1>
     <div id="main">
  
@@ -157,7 +157,7 @@
                 <p>GC subject <br>
                     It is taught by AP</p>
             </div>
-            <div id="click">
+            <div  id="click">
                 <a href="gc.html"> <button  id="buttonspace">start</button></a>
 
             </div>
@@ -179,7 +179,8 @@
 
             </div>
         </div>
-        <div class="card" id="ma">
+        
+        <div  class="card" id="ma">
             <div id="topic">
                 <h2> MICROPROCESSOR AND ARCITECTURE</h2>
             </div>
@@ -203,7 +204,6 @@
              <a style="color: rgb(9, 226, 9);" href="https://mail.google.com">EMAIL</a> <br> & <br> MOB NUMBER IS 8104608876 <br>	&copy;copyright act by surya</p>
     
     </footer>
-
    
     <script>
   
@@ -259,11 +259,21 @@ function pass(params) {
   }
   else{
       alert("Entered password is wrong")
-      document.getElementById("body").style.display="none";
+     
+      document.getElementById("body").innerHTML=`
+      
+<img src="https://api-broadcom-ca.wolkenservicedesk.com/es/attachments/get_attachment_content?uniqueFileId=625584562529" alt="">
+      <h2>YOU ENTERED WRONG PASSWORD</h2>
+      <button onclick="back()" >back</button>
+      `;
   }
     }
 
+function back(){
+    alert("hkjh");
+    history.back();
 
+}
 
     </script>
 </body>
