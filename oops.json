@@ -1,5 +1,47 @@
 [
+
+
+
+    
     {
+        
+        "lec": "OOPS",
+        "type":"Theory",
+        "day":"Mon",
+        "date":"21/02/22",
+        "watch": "https://www.youtube.com/embed/fRQZrZjYykQ",
+        "download":"",
+        "des":"OBj & Classs"
+    }, {
+        
+        "lec": "OOPS",
+        "type":"Theory",
+        "day":"Mon",
+        "date":"21/02/22",
+        "watch": "https://www.youtube.com/embed/7ORwBfgfQjE",
+        "download":"",
+        "des":"OBj & Classs"
+    }, {
+        
+        "lec": "OOPS",
+        "type":"Theory",
+        "day":"Wed",
+        "date":"16/02/22",
+        "watch": "https://www.youtube.com/embed/AGzuCRMXWs4",
+        "download":"",
+        "des":"OBj & Classs"
+    },
+    {
+        
+        "lec": "OOPS",
+        "type":"Theory",
+        "day":"Wed",
+        "date":"16/02/22",
+        "watch": "https://www.youtube.com/embed/HEgPFZJUBKM",
+        "download":"",
+        "des":"OBj & Classs"
+    },
+        {
         
         "lec": "OOPS",
         "type":"Theory",

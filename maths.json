@@ -3,6 +3,36 @@
        
         "lec": "MATHS",
         "type":"Theory",
+        "day":"Fri",
+        "date":"18/02/22",
+        "watch": "https://www.youtube.com/embed/vxQZodQyTUo",
+        "download":"",
+        "des":"Gause-jor"
+    },
+    {
+       
+        "lec": "MATHS",
+        "type":"Theory",
+        "day":"wed",
+        "date":"16/02/22",
+        "watch": "https://www.youtube.com/embed/lfQP1qUu6bM",
+        "download":"",
+        "des":"Matrix"
+    },
+    {
+       
+        "lec": "MATHS",
+        "type":"Theory",
+        "day":"Mon",
+        "date":"14/02/22",
+        "watch": "https://www.youtube.com/embed/v1t_v5c7MsM",
+        "download":"",
+        "des":"Newton-back"
+    },
+    {
+       
+        "lec": "MATHS",
+        "type":"Theory",
         "day":"Wed",
         "date":"12/02/22",
         "watch": "https://www.youtube.com/embed/qsTQ8N9roPw ",

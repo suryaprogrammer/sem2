@@ -1,6 +1,42 @@
 [
     {
         "lec": "WEB PROG",
+        "type": "Practical",
+        "day": "Mon",
+        "date": "21/02/22",
+        "watch": "https://youtube.com/embed/sE1HDw-8Ssk",
+        "download": "",
+        "des": "HTML"
+    },
+    {
+        "lec": "WEB PROG",
+        "type": "Practical",
+        "day": "Mon",
+        "date": "21/02/22",
+        "watch": "https://youtube.com/embed/goxASc8ZfNU",
+        "download": "",
+        "des": "HTML"
+    },
+    {
+        "lec": "WEB PROG",
+        "type": "Practical",
+        "day": "Mon",
+        "date": "21/02/22",
+        "watch": "https://youtube.com/embed/Np7oK5aAnYM",
+        "download": "",
+        "des": "HTML"
+    },
+    {
+        "lec": "WEB PROG",
+        "type": "Theory",
+        "day": "Sat",
+        "date": "12/02/22",
+        "watch": "https://youtube.com/embed/v9-KqhA-SVM",
+        "download": "",
+        "des": "Input-type"
+    },
+    {
+        "lec": "WEB PROG",
         "type": "Theory",
         "day": "Sat",
         "date": "12/02/22",
